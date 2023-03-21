@@ -4,7 +4,7 @@
 <comment>Mytru - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2023-03-21T16:13:12.969Z</entry>
+<entry key="created">2023-03-21T18:54:32.754Z</entry>
 <entry key="groupId">com.mytru</entry>
 <entry key="name">mytru.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.

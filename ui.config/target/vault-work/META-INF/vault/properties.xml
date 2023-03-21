@@ -4,7 +4,7 @@
 <comment>Mytru - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2023-03-21T16:13:19.670Z</entry>
+<entry key="created">2023-03-21T18:54:39.239Z</entry>
 <entry key="groupId">com.mytru</entry>
 <entry key="name">mytru.ui.config</entry>
 <entry key="description">UI config package for Mytru</entry>
