@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-Category: Mytru
+Bundle-Description: Core bundle for Mytru
+Bundle-ManifestVersion: 2
+Bundle-Name: Mytru - Core
+Bundle-SymbolicName: mytru.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.mytru.core.filters;version="1.0";uses:="javax.serv
+ let",com.mytru.core.listeners;version="1.0";uses:="org.apache.sling.a
+ pi.resource.observation",com.mytru.core.models;version="1.0";uses:="j
+ avax.annotation,org.apache.sling.api.resource,org.apache.sling.models
+ .annotations,org.apache.sling.models.annotations.injectorspecific",co
+ m.mytru.core.schedulers;version="1.0",com.mytru.core.servlets;version
+ ="1.0";uses:="javax.servlet,org.apache.sling.api,org.apache.sling.api
+ .servlets"
+Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
+ rsion="[1.29,2)",com.mytru.core.filters;version="[1.0,2)",com.mytru.c
+ ore.listeners;version="[1.0,2)",com.mytru.core.schedulers;version="[1
+ .0,2)",com.mytru.core.servlets;version="[1.0,2)",javax.servlet;versio
+ n="[2.6,3)",org.apache.sling.api;version="[2.3,3)",org.apache.sling.a
+ pi.request;version="[2.7,3)",org.apache.sling.api.resource;version="[
+ 2.13,3)",org.apache.sling.api.resource.observation;version="[1.2,2)",
+ org.apache.sling.api.servlets;version="[2.3,3)",org.apache.sling.mode
+ ls.annotations;version="[1.5,2)",org.apache.sling.models.annotations.
+ injectorspecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.5.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.mytru.core.filters.LoggingFilter.xml,O
+ SGI-INF/com.mytru.core.listeners.SimpleResourceListener.xml,OSGI-INF/
+ com.mytru.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/com.mytru.
+ core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.mytru.core.models.HelloWorldModel
+
