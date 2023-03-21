@@ -3,7 +3,7 @@
 <properties>
 <comment>Mytru - All</comment>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2023-03-21T12:14:36.101Z</entry>
+<entry key="created">2023-03-21T12:45:39.201Z</entry>
 <entry key="groupId">com.mytru</entry>
 <entry key="name">mytru.all</entry>
 <entry key="description">All content package for Mytru</entry>

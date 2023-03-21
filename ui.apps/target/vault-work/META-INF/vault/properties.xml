@@ -4,7 +4,7 @@
 <comment>Mytru - UI apps</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2023-03-21T12:14:33.230Z</entry>
+<entry key="created">2023-03-21T12:45:36.206Z</entry>
 <entry key="groupId">com.mytru</entry>
 <entry key="name">mytru.ui.apps</entry>
 <entry key="description">UI apps package for Mytru</entry>
