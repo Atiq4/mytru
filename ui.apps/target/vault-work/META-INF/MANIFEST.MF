@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 11
+Implementation-Title: Mytru - UI apps
+Implementation-Version: 1.0-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.mytru:mytru.ui.apps:1.0-SNAPSHOT
+Content-Package-Description: UI apps package for Mytru
+Content-Package-Roots: /apps/mytru/clientlibs,/apps/mytru/components,/ap
+ ps/mytru/i18n
+Import-Package: com.mytru.core.models;version="[1.0.0,2.0.0)",org.apache
+ .sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

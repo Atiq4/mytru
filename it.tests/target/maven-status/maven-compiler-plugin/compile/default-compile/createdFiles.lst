@@ -1,0 +1,4 @@
+com/mytru/it/tests/GetPageIT.class
+com/mytru/it/tests/HtmlUnitClient.class
+com/mytru/it/tests/CreatePageIT.class
+com/mytru/it/tests/PublishPageValidationIT.class

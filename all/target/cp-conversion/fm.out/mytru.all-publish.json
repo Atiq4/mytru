@@ -1,0 +1,12 @@
+{
+  "id":"com.mytru:mytru.all:slingosgifeature:publish:1.0-SNAPSHOT",
+  "configurations":  {
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/mytru/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.mytru:mytru.all:1.0-SNAPSHOT|com.mytru:mytru.ui.config:1.0-SNAPSHOT"
+    }
+  }
+}
