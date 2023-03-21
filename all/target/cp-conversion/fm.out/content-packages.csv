@@ -1,4 +1,4 @@
-# File created on Tue Mar 21 18:15:40 IST 2023 by the Apache Sling Content Package to Sling Feature converter
+# File created on Tue Mar 21 21:43:21 IST 2023 by the Apache Sling Content Package to Sling Feature converter
 # content-package path, content-package ID, content-package type, content-package parent ID, path in parent content-package, absolute path
 /Users/abc/Atiq/trulocal/mytru/all/target/mytru.all-1.0-SNAPSHOT.zip,com.mytru:mytru.all:1.0-SNAPSHOT,CONTAINER,,,
 /Users/abc/Atiq/trulocal/mytru/all/target/mytru.all-1.0-SNAPSHOT.zip,com.mytru:mytru.ui.config:1.0-SNAPSHOT,CONTAINER,com.mytru:mytru.all:1.0-SNAPSHOT,/jcr_root/apps/mytru-packages/application/install/mytru.ui.config-1.0-SNAPSHOT.zip,/Users/abc/Atiq/trulocal/mytru/all/target/mytru.all-1.0-SNAPSHOT.zip!/jcr_root/apps/mytru-packages/application/install/mytru.ui.config-1.0-SNAPSHOT.zip
